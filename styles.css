@@ -6,10 +6,183 @@
 }
 
 .bg-menu {
-  background-color: #5B1317;
+  background-color: #5b1317;
 }
 
 .bg-menu .kitin {
   color: white;
+}
+
+.nav-item .nav-link {
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-toggler {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-size: cover;
+}
+
+.body__section-box {
+  width: 100%;
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f7e7ce;
+}
+
+.body__section-box .body__section {
+  width: 1170px;
+}
+
+.body__section-box .body__section .body__section-heading-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body__section-box .body__section .body__section-heading-box .body__section-heading-line {
+  border-top: 2px solid #dc4f26;
+  width: 150px;
+}
+
+.body__section-box .body__section .body__section-heading-box .body__section-heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  color: #04519d;
+  margin: 24px 0;
+}
+
+.body__section-box .body__section .body__section-content {
+  margin: 24px 0;
+}
+
+.body__section-box .body__section .body__section-content .body__section-content-paragraph {
+  text-align: center;
+  font-family: "Montserrat";
+  color: #04091f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.body__section-box .body__section .body__section-listImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.body__section-box .body__section .body__section-listImage .body__section-image-box {
+  width: 50%;
+  height: 400px;
+  padding: 0 15px 30px 15px;
+}
+
+.body__section-box .body__section .body__section-listImage .body__section-image-box .body__section-image {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background-size: contain;
+}
+
+.body__section-box .body__section .body__section-listImage .body__section-image-box .body__section-image .body__section-image-description {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  height: 48px;
+  background: #626aaa;
+  padding-left: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media (max-width: 768px) {
+  .body__section-box {
+    padding: 40px 18px;
+  }
+  .body__section-box .body__section {
+    width: 100%;
+  }
+  .body__section-box .body__section .body__section-heading-box .body__section-heading-line {
+    margin: 16px 0;
+  }
+  .body__section-box .body__section .body__section-heading-box .body__section-heading {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+  }
+  .body__section-box .body__section .body__section-content {
+    margin: 0 0 8px 0;
+  }
+  .body__section-box .body__section .body__section-content .body__section-content-paragraph {
+    text-align: unset;
+  }
+  .body__section-box .body__section .body__section-listImage {
+    margin: 0;
+  }
+  .body__section-box .body__section .body__section-listImage .body__section-image-box {
+    width: 100%;
+    padding: 16px 0 0 0;
+    height: unset;
+  }
+  .body__section-box .body__section .body__section-listImage .body__section-image-box .body__section-image {
+    height: 0;
+    padding-bottom: 64.021164021%;
+  }
+  .body__section-box .body__section .body__section-listImage .body__section-image-box .body__section-image .body__section-image-description {
+    padding-left: 19px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
