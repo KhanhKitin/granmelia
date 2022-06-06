@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bg-menu {
+  background-color: #5B1317;
+}
+
+.bg-menu .kitin {
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
